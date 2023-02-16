@@ -7,9 +7,9 @@ type ShowProps = {
 
 const Show = ({ when, children, fallback }: PropsWithChildren<ShowProps>) => {
 	if (when) {
-		return children;
+		return children ?? null;
 	}
-	return fallback;
+	return fallback ?? null;
 };
 
 export default Show;
