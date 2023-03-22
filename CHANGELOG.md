@@ -1,5 +1,11 @@
 # @undefined/react
 
+## 0.1.1
+
+### Patch Changes
+
+- abe4a8f: Add package files
+
 ## 0.1.0
 
 ### Minor Changes
